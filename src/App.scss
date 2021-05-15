@@ -1,0 +1,73 @@
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLighter: #282828;
+$greyText: #b3b3b3;
+
+.App {
+  height: calc(100vh - 90px);
+  background: $greyLight;
+}
+
+.navBar {
+  width: 260px;
+  height: 100%;
+  background: $greyDark;
+  padding: 10px 10px 0;
+  display: flex;
+  align-items: center;
+  .logo {
+    padding: 1rem 0.8rem;
+    svg {
+      max-width: 130px;
+      p {
+        fill: white;
+      }
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      color: $greyText;
+      list-style-type: none;
+      border-radius: 5px;
+      padding: 0.5rem 0.8rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      &.active {
+        background: $greyLighter;
+        color: white;
+      }
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .cookies{
+    font-size: 0.6rem;
+    color: $greyText;
+    text-align: center;
+    margin-top: auto;
+    padding: 1rem;
+    span {
+      display: block;
+    }
+  }
+}
+
+.outerWrap {
+  background: grey;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.musicControls {
+  background: $greyLighter;
+  text-align: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
