@@ -5,6 +5,29 @@ $greyText: #b3b3b3;
 $greyNav: #090909;
 $greenMain: #1db954;
 
+@font-face {
+  font-family: circular-book;
+  src: url(./fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+  font-family: circular-bold;
+  src: url(./fonts/CircularStd-Bold.otf);
+}
+
+@font-face {
+  font-family: circular-black;
+  src: url(./fonts/CircularStd-Black.otf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: circular-book;
+}
+
 .App {
   height: calc(100vh - 90px);
   background: $greyLight;
@@ -170,4 +193,21 @@ $greenMain: #1db954;
       }
     }
   } 
+}
+
+.playIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  background: $greenMain;
+  margin-left: auto;
+  opacity: 0;
+  position: absolute;
+  right: 1.2rem;
+  bottom: 1.2rem;
+  svg {
+    margin: auto;
+  }
 }

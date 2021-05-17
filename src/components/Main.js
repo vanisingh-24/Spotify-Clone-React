@@ -1,6 +1,7 @@
 import React from 'react';
+import {ReactComponent as PlayIcon} from '../svgs/play.svg';
 
-const Nav = () => {
+const Main = () => {
    return (
     <div className="main">
       <div className="upperNav">
@@ -16,6 +17,9 @@ const Nav = () => {
                   <div className="cardContent">
                     <h3>Liked Songs</h3>
                   </div>
+                  <span className="playIcon">
+                    <PlayIcon />
+                  </span>
               </div>
           </div>
       </div>
@@ -23,4 +27,4 @@ const Nav = () => {
    )
 }
 
-export default Nav;
+export default Main;

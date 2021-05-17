@@ -3,7 +3,7 @@ import './App.scss';
 import Nav from './components/Nav';
 import Main from './components/Main';
 
-function App() {
+const App = () => {
   return (
   <div className="outerWrap">
     <div className="App">
