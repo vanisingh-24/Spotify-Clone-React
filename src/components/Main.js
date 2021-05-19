@@ -1,6 +1,6 @@
 import React from 'react';
 import Categories from './Categories';
-import Playlists from './Playlists';
+import {Switch, Route} from 'react-router-dom';
 
 const Main = () => {
    return (
@@ -9,7 +9,15 @@ const Main = () => {
           dummy text
       </div>
       <div className="mainContent">
-        <Categories />
+        <Switch>
+          <Route path="/" exact component={Categories}></Route>
+          <Route path="/search">
+            Search
+          </Route>
+          <Route path="/your-library">
+            Your Library
+          </Route>
+        </Switch>
       </div>
     </div>
    )

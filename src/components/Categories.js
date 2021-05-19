@@ -1,4 +1,5 @@
 import React from 'react';
+import Playlists from './Playlists';
 
 const Categories = () => {
     const dataCategories = [
@@ -21,12 +22,12 @@ const Categories = () => {
 
     return (
         <div>
-            {dataCategories.map((category) => (
-               <div className="cardsWrap">
+            {dataCategories.map((category, id) => (
+               <div className="cardsWrap" key={id}>
                <h2>{category.name}</h2>
                <span className="seeAll">SEE ALL</span>
                <p className="subText">Music to help you concentrate.</p>
-               <Playlists categoryId={category.id}/>
+               <Playlists category_id={category.id}/>
            </div>
             ))}
         </div>
