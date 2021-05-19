@@ -1,6 +1,7 @@
 import React from 'react';
 import Categories from './Categories';
 import {Switch, Route} from 'react-router-dom';
+import PlaylistPage from './pages/Playlist';
 
 const Main = () => {
    return (
@@ -17,6 +18,7 @@ const Main = () => {
           <Route path="/your-library">
             Your Library
           </Route>
+          <Route path="/playlist/:id" component={PlaylistPage}></Route>
         </Switch>
       </div>
     </div>
