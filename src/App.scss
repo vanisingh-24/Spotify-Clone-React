@@ -20,6 +20,10 @@ $greenMain: #1db954;
   src: url(./fonts/CircularStd-Black.otf);
 }
 
+.smallText {
+  font-size: 0.8rem;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -262,6 +266,78 @@ body {
       }
     }
   }
-
-  
+  .playlistPageSongs {
+    height: 100%;
+    .playlistButtons {
+      display: flex;
+      align-items: center;
+    }
+    .playIcon {
+      @extend .playIcon;
+      opacity: 1;
+      position: relative;
+      margin-left: 0;
+      height: 56px;
+      width: 56px;
+      right: 0;
+      bottom: 0;
+      svg {
+        height: 26px;
+        width: 26px;
+      }
+    }
+    .icons {
+      .icon {
+        margin-left: 1.5rem;
+      }
+      .iconsHeart {
+        width: 28px;
+        height: 28px;
+      }
+      svg {
+        fill: white;
+      }
+    }
+  }
+}
+.playlistPageContent {
+  text-align: left;
+  padding: 1.5rem 2rem;
+  h1 {
+    font-size: 7rem;
+      margin: 0;
+      line-height: 1;
+      font-family: circular-black;
+      word-spacing: -18px;
+      letter-spacing: -6px;
+  }
+  .tagline {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+  }
+  .playlistPageDesc {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    p {
+      margin: 0;
+    }
+    span {
+      opacity: 0.7;
+        position: relative;
+        padding-left: 20px;
+        &:before {
+          content: '';
+          width: 4px;
+          height: 4px;
+          background: white;
+          overflow: hidden;
+          border-radius: 50%;
+          position: absolute;
+          margin-left: -10px;
+          top: 9px;
+        }
+    }
+  }
 }

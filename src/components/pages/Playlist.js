@@ -11,7 +11,9 @@ const PlaylistPage = () => {
                <div className="playlistPageImage">
                   <img src="https://images.unsplash.com/photo-1587201572498-2bc131fbf113?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=924&q=80" alt="pic" />
                </div>
-               <h1>Title</h1>
+               <div className="playlistPageContent">
+                   <p className="smallText uppercase">Playlist</p>
+               <h1>A Perfect Day</h1>
                <p>Spotify</p>
                <button>Play</button>
                <div className="icons">
@@ -23,6 +25,8 @@ const PlaylistPage = () => {
                   </div>
                </div>
                <p>Minimalism, electronica and modern classical to concentrate to.</p>
+               </div>
+               
             </div>
 
             <div className="playlistPageSongs">
