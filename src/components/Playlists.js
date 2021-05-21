@@ -18,7 +18,7 @@ const Playlists = (props) => {
       category_id: 3,
       name: "Home Playlist 2",
       img:
-        "https://images.unsplash.com/photo-1587151711096-23c51f92c920?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+        "https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
       desc: "Lorem ipsum",
     },
     {
@@ -26,7 +26,7 @@ const Playlists = (props) => {
       category_id: 3,
       name: "Home Playlist 3",
       img:
-        "https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+        "https://images.unsplash.com/photo-1590681713379-41da9f6be849?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80",
       desc: "Lorem ipsum",
     },
     {
@@ -34,7 +34,7 @@ const Playlists = (props) => {
       category_id: 3,
       name: "Home Playlist 3",
       img:
-        "https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+        "https://images.unsplash.com/photo-1615319532762-b4ccc69e5abf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
       desc: "Lorem ipsum",
     },
     {
@@ -42,7 +42,7 @@ const Playlists = (props) => {
       category_id: 3,
       name: "Home Playlist 3",
       img:
-        "https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+        "https://images.unsplash.com/photo-1616684553557-82371dfba65f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1866&q=80",
       desc: "Lorem ipsum",
     },
     {
@@ -130,7 +130,7 @@ const Playlists = (props) => {
       category_id: 2,
       name: "Mood Playlist 1",
       img:
-        "https://images.unsplash.com/photo-1587220111918-7a5c0f0c46f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+        "https://images.unsplash.com/photo-1499946981954-e7f4b234d7fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
       desc: "Lorem ipsum",
     },
     {
@@ -138,7 +138,7 @@ const Playlists = (props) => {
       category_id: 2,
       name: "Mood Playlist 2",
       img:
-        "https://images.unsplash.com/photo-1587220111918-7a5c0f0c46f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+        "https://images.unsplash.com/photo-1474417426737-fbbff0e62ea0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80",
       desc: "Lorem ipsum",
     },
   ];
