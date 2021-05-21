@@ -20,8 +20,16 @@ $greenMain: #1db954;
   src: url(./fonts/CircularStd-Black.otf);
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .smallText {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.8px;
+  &.bold {
+    font-weight: 600;
+  }
 }
 
 * {
@@ -293,7 +301,6 @@ body {
       .iconsHeart {
         width: 28px;
         height: 28px;
-      }
       svg {
         fill: white;
       }
@@ -340,6 +347,7 @@ body {
         }
     }
   }
+}
 }
 
 ul.songList {
