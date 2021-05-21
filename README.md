@@ -1,3 +1,13 @@
+# Spotify React Clone (WORK IN PROGRESS)
+
+A React based UI clone of Spotify (Desktop version) using SCSS. This mini application only includes three pages: Home, Search and Library. Main purpose of the project was to become more familiar with React.js and develop Front-end skills.
+
+# Built With:
+
+1. React: A declarative, efficient, and flexible JavaScript library for building user interfaces.
+2. React Router: A declarative routing for React applications.
+3. SCSS: The most mature, stable, and powerful professional grade CSS extension language in the world.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +78,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
