@@ -107,7 +107,7 @@ body {
       }
     }
   }
-  .cookies{
+  .cookies {
     font-size: 0.6rem;
     color: $greyText;
     text-align: center;
@@ -138,7 +138,7 @@ body {
   border-top: 1px solid $greyDark;
 }
 
-.upperNav{
+.upperNav {
   background: rgba(9, 9, 9, 0.78);
   height: 56px;
   width: 100%;
@@ -151,7 +151,7 @@ body {
   z-index: 2;
 }
 
-.main{
+.main {
   width: 100%;
   overflow-y: scroll;
   position: relative;
@@ -169,7 +169,7 @@ body {
   }
 }
 
-.cardsWrap{
+.cardsWrap {
   padding-bottom: 0.8rem;
   h2 {
     margin-bottom: 0;
@@ -179,12 +179,12 @@ body {
     grid-gap: 16px;
     grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
 
-    a{
+    a {
       color: inherit;
       text-decoration: none;
     }
   }
-  .subText{
+  .subText {
     margin-top: 0.5rem;
     margin-bottom: 1.2rem;
   }
@@ -223,7 +223,7 @@ body {
         color: $greyText;
       }
     }
-  } 
+  }
 }
 
 .playIcon {
@@ -245,7 +245,7 @@ body {
 
 .playlistPage {
   background-color: rgb(214, 214, 214);
-  .mainInner{
+  .mainInner {
     background-image: -webkit-gradient(
       linear,
       left top,
@@ -258,11 +258,11 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .playlistPageInfo{
+  .playlistPageInfo {
     text-align: center;
     padding: 1.5rem 0;
     display: flex;
-    .playlistPageImage{
+    .playlistPageImage {
       width: 250px;
       height: 250px;
       img {
@@ -301,41 +301,41 @@ body {
       .iconsHeart {
         width: 28px;
         height: 28px;
-      svg {
-        fill: white;
+        svg {
+          fill: white;
+        }
       }
     }
   }
-}
-.playlistPageContent {
-  text-align: left;
-  padding: 1.5rem 2rem;
-  h1 {
-    font-size: 7rem;
+  .playlistPageContent {
+    text-align: left;
+    padding: 1.5rem 2rem;
+    h1 {
+      font-size: 7rem;
       margin: 0;
       line-height: 1;
       font-family: circular-black;
       word-spacing: -18px;
       letter-spacing: -6px;
-  }
-  .tagline {
-    font-size: 0.9rem;
-    opacity: 0.7;
-    margin-bottom: 0.5rem;
-  }
-  .playlistPageDesc {
-    display: flex;
-    align-items: center;
-    font-size: 0.9rem;
-    p {
-      margin: 0;
     }
-    span {
+    .tagline {
+      font-size: 0.9rem;
       opacity: 0.7;
+      margin-bottom: 0.5rem;
+    }
+    .playlistPageDesc {
+      display: flex;
+      align-items: center;
+      font-size: 0.9rem;
+      p {
+        margin: 0;
+      }
+      span {
+        opacity: 0.7;
         position: relative;
         padding-left: 20px;
         &:before {
-          content: '';
+          content: "";
           width: 4px;
           height: 4px;
           background: white;
@@ -345,9 +345,9 @@ body {
           margin-left: -10px;
           top: 9px;
         }
+      }
     }
   }
-}
 }
 
 ul.songList {
@@ -377,7 +377,7 @@ ul.songList {
         font-size: 1rem;
       }
       span {
-       color: rgba(255, 255, 255, 0.7);
+        color: rgba(255, 255, 255, 0.7);
         font-size: 0.9rem;
       }
     }
