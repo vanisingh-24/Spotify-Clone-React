@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 const Nav = () => {
    return (
-    <div className="navbar">
+    <div className="navBar">
     <div className="logo">
     <svg viewBox="0 0 1134 340" className="spotify-logo--text">
       <title>Spotify</title>
