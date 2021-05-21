@@ -52,8 +52,8 @@ const PlaylistPage = () => {
                 <PlayIcon className="playI" />
               </div>
               <div className="songDetails">
-                <h3>Held Down</h3>
-                <span>Laura Marling</span>
+                <h3>All of Me</h3>
+                <span>John Legend</span>
               </div>
               <div className="songTime">
                 <span>4:07</span>
@@ -65,8 +65,8 @@ const PlaylistPage = () => {
                 <PlayIcon className="playI" />
               </div>
               <div className="songDetails">
-                <h3>Held Down</h3>
-                <span>Laura Marling</span>
+                <h3>All of Me</h3>
+                <span>John Legend</span>
               </div>
               <div className="songTime">
                 <span>4:07</span>
@@ -78,8 +78,8 @@ const PlaylistPage = () => {
                 <PlayIcon className="playI" />
               </div>
               <div className="songDetails">
-                <h3>Held Down</h3>
-                <span>Laura Marling</span>
+                <h3>All of Me</h3>
+                <span>John Legend</span>
               </div>
               <div className="songTime">
                 <span>4:07</span>
@@ -91,8 +91,8 @@ const PlaylistPage = () => {
                 <PlayIcon className="playI" />
               </div>
               <div className="songDetails">
-                <h3>Held Down</h3>
-                <span>Laura Marling</span>
+                <h3>All of Me</h3>
+                <span>John Legend</span>
               </div>
               <div className="songTime">
                 <span>4:07</span>
@@ -104,8 +104,8 @@ const PlaylistPage = () => {
                 <PlayIcon className="playI" />
               </div>
               <div className="songDetails">
-                <h3>Held Down</h3>
-                <span>Laura Marling</span>
+                <h3>All of Me</h3>
+                <span>John Legend</span>
               </div>
               <div className="songTime">
                 <span>4:07</span>
@@ -117,8 +117,8 @@ const PlaylistPage = () => {
                 <PlayIcon className="playI" />
               </div>
               <div className="songDetails">
-                <h3>Held Down</h3>
-                <span>Laura Marling</span>
+                <h3>All of Me</h3>
+                <span>John Legend</span>
               </div>
               <div className="songTime">
                 <span>4:07</span>
